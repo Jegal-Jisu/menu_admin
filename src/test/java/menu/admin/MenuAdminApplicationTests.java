@@ -1,4 +1,4 @@
-package menu.jgjs;
+package menu.admin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

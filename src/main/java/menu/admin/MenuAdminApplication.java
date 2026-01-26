@@ -1,4 +1,4 @@
-package menu.jgjs;
+package menu.admin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
