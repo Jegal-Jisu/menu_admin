@@ -1,4 +1,6 @@
 spring:
+  config:
+    import: optional:file:.env[.yml]
   application:
     name: menu-admin
   datasource:
@@ -15,6 +17,15 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MariaDBDialect
+  batch:
+    job:
+      enabled: false
+  main:
+    allow-bean-definition-overriding: true
 
 server:
   port: 17080
+
+crontab:
+#  getMenu: 0 */10 9-11 * * ?
+  getMenu: 0 */1 * * * ?
