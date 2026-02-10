@@ -1,5 +1,34 @@
-.env
+### JAVA template
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# Mac OS
+*.DS_Store
+.AppleDouble
+.LsOverride
+
+# Intellij
+.idea
 /.idea/
-/.gradle/
+*.imi
+out
+gen
+build
+rebel.xml
+
+# Complied files
+/target/
+**/target/
+/example/
+
+# Gradle
+.gradle
 /build/
-/gradle/
+.gradletasknamecache
+
+# env
+.env
