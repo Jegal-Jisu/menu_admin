@@ -1,6 +1,4 @@
 .env
-/.gradle
-.gradle/**
-.idea/**
-build/**
-.idea
+/.idea/
+/.gradle/
+/build/
